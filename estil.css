@@ -1,0 +1,74 @@
+formulario{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.cinesa{
+    margin: auto;
+    display: block;
+}
+
+imagenes{
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+}
+
+.imagen{
+    margin-right: 10px;
+}
+
+.titulo{
+    text-align: center;
+    color: royalblue;
+    font-size: 40px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+div{
+    background-color: #cccccc;
+    border-color: #f70000;
+    border: 3px;
+    padding: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+option, select{
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 8px;
+    background-color: rgb(253, 201, 133);
+    border-color: rgb(0, 0, 0);
+}
+
+input{
+    padding: 2px;
+    border-radius: 8px;
+    background-color: rgb(253, 201, 133);
+    border-color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.botones{
+    margin-bottom: 8px;
+}
+
+.fecha{
+    margin-top: 6px;
+}
+
+.boton{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+}

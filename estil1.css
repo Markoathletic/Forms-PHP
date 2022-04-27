@@ -1,0 +1,20 @@
+div{
+    font-size: larger;
+}
+
+respuesta{
+        display: flex;
+        justify-content: center;
+    background-color: #a8a8a8;
+    padding: 6px;
+    font-size: 25px;
+    margin-left: -100px;
+}
+
+input{
+        height: 50px;
+        width: 160px;
+        font-size: 16px;
+        margin-top: 14%;
+        margin-left: -25%;
+}

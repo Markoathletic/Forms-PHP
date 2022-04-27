@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estil.css">
+</head>
+<body>
+        <img class="cinesa" src="logo-cinesa.png" height="70px" width="170px">
+        <div class="titulo">Doctor Strange en el Multiverso de la Locura</div>
+        <br>
+    <div>
+        <imagenes>
+        <img class="imagen" src="https://www.cinesa.es/Manager/Peliculas/doctorstrangeenelmultiversodelalocura/cartelera.jpg" height="290px" width="200px">
+        <iframe width="540" height="290" src="https://www.youtube.com/embed/NOpzldCE7GY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </imagenes>
+        <br> 
+        <formulario>
+        
+            <form action="wellcome_get.php" method="get">
+                <label>Para comprar entradas rellena los siguientes datos</label><br><br>
+                Nombre: <input type="text" name="nombre" placeholder=" tu nombre" required><br>
+                Apellidos: <input type="text" name="apellidos" placeholder=" tus apellidos" required><br>
+                Edad: <input type="number" name="edad" min="16" max="64" placeholder="16" required><br>
+                Menor: <input  class="botones" type="radio" name="menor" value="si">Si<input type="radio" name="menor" value="no" required>No<br>
+                Tipo de entrada: <select name="entrada" required>
+                    <option value="">Elige una opción</option>
+                    <option>Butaca Normal</option>
+                    <option>Butaca VIP</option>
+                </select><br>
+                Fecha: <input class="fecha" name="fecha" type="date" required><br>
+                Hora: <input class="hora" name="hora" type="time" list="listatime" required><br>
+                <datalist id="listatime" size="5">
+                    <option value="13:00">
+                    <option value="13:30">
+                    <option value="14:00">
+                    <option value="14:30">
+                    <option value="15:00">
+                    <option value="15:30">
+                    <option value="16:00">
+                    <option value="16:30">    
+                    <option value="17:00">    
+                    <option value="17:30">
+                    <option value="18:00">    
+                    <option value="18:30">
+                    <option value="19:00">    
+                    <option value="19:30">
+                    <option value="20:00">    
+                    <option value="20:30">
+                    <option value="21:00">
+                    </datalist>
+
+                <br>
+                <br><input  class="boton" type="submit" value="Comprar">
+            </form>
+
+        </formulario>
+    </div>
+</body>
+</html>
